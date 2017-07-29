@@ -30,7 +30,7 @@ defmodule PlugCowboy2.Mixfile do
   defp deps do
     [{:ranch, "~> 1.4.0", override: true, optional: true},
      {:cowlib, github: "ninenines/cowlib", ref: "2.0.0-rc.1", override: true, optional: true},
-     {:plug, "~> 1.3.0"},
+     {:plug, "~> 1.4.0"},
      {:cowboy, github: "ninenines/cowboy", ref: "2.0.0-rc.1", override: true, optional: true}]
   end
 end
